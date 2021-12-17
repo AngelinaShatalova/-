@@ -1,0 +1,32 @@
+//Посчитать количество и сумму парных чисел в диапазоне от 1 до N.
+using System;
+
+namespace zadacha3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            while (true)
+            {
+                Console.Clear();
+
+                for (int i = 1; i <= 10; i++)
+                {
+                    for (int a = 2; a <= 6; a++)
+                    {
+                        Console.Write($"{a} * {i} = {a * i}\t");
+
+                    }
+
+                    Console.WriteLine();
+
+                }
+
+                Console.ReadLine();
+
+            }
+        }
+    }
+}
